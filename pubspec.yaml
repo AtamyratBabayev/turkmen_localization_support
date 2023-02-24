@@ -1,7 +1,7 @@
 name: turkmen_localization_support
 description: Support for Turkmen language.
 version: 0.0.1
-homepage:
+repository: https://github.com/Mickey-A-Mouse/turkmen_localization_support
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
