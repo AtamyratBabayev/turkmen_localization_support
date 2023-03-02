@@ -129,7 +129,7 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
   String get searchTextFieldPlaceholderLabel => 'Gözleg';
 
   @override
-  String get tabSemanticsLabelRaw => r'Вкладка $tabIndex из $tabCount';
+  String get tabSemanticsLabelRaw => r'$tabCount - dan $tabIndex sahypa';
 
   @override
   String? get timerPickerHourLabelFew => 'sagat';
