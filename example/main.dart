@@ -25,6 +25,7 @@ class ExampleApp extends StatelessWidget {
     );
   }
 }
+
 // Helper class
 class L10n {
   // Actual delegates
@@ -33,19 +34,13 @@ class L10n {
     GlobalCupertinoLocalizations.delegate,
     GlobalWidgetsLocalizations.delegate,
     // Add this line
-    ...TkDelegates.delegates(),
-
-    // In case if you want const list of delegates add [TkMaterialLocalization.delegate] and [TkCupertinoLocalization.delegate]
-    // uncomment lines below and remove above ...TkDelegates.delegates()
-    //
-    // TkMaterialLocalization.delegate,
-    // TkCupertinoLocalization.delegate
+    ...TkDelegates.delegates,
   ];
   // Supported locales list
   static const List<Locale> supportedLocales = <Locale>[
     // Add this line
     Locale('tk'),
-    
+
     Locale('ru'),
     Locale('en')
   ];
