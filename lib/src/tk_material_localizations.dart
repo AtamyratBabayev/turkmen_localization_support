@@ -657,4 +657,19 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
 
   @override
   String get menuBarMenuLabel => 'Menýü paneli';
+
+  @override
+  String get bottomSheetLabel => 'Aşaky ekran';
+
+  @override
+  String get currentDateLabel => 'Bu gün';
+
+  @override
+  String get keyboardKeyShift => 'Shift';
+
+  @override
+  String get scrimLabel => 'Maska';
+
+  @override
+  String get scrimOnTapHintRaw => r'$modalRouteContentName - ny ýapmak';
 }

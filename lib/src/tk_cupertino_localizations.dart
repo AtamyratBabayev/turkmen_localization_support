@@ -187,4 +187,7 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
 
   @override
   String get todayLabel => 'Bu gün';
+  
+  @override
+  String get noSpellCheckReplacementsLabel => 'Çalyşma tapylmady';
 }

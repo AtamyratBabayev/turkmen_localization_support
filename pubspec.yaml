@@ -1,10 +1,10 @@
 name: turkmen_localization_support
 description: Support for Turkmen language.
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/Mickey-A-Mouse/turkmen_localization_support
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  sdk: '>=2.19.2 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   # Localizations
-  intl: ^0.17.0 
+  intl: ^0.18.0 
 
 dev_dependencies:
   flutter_test:
@@ -22,4 +22,3 @@ dev_dependencies:
 
 
 flutter:
-
