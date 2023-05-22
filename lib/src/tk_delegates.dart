@@ -9,10 +9,8 @@ class TkDelegates {
   ///
   /// Returns ios/android localized delegates, in case if ios is not needed
   /// use direct delegate: [TkMaterialLocalization.delegate]
-  static Iterable<LocalizationsDelegate<dynamic>> delegates() {
-    return const [
-      TkMaterialLocalization.delegate,
-      TkCupertinoLocalization.delegate
-    ];
-  }
+  static const Iterable<LocalizationsDelegate<dynamic>> delegates = [
+    TkMaterialLocalization.delegate,
+    TkCupertinoLocalization.delegate
+  ];
 }
