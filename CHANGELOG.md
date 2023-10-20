@@ -10,3 +10,9 @@
 
 * Updated missed translations.
 * Updated intl version to ^0.18.0.
+
+## 0.0.4
+
+* Updated missed translations.
+* Updated intl version to ^0.18.1.
+* Updated min sdk version to 3.0.5.
