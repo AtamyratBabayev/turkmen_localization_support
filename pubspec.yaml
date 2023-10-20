@@ -1,10 +1,10 @@
 name: turkmen_localization_support
-description: Support for Turkmen language.
-version: 0.0.3
+description: Provides an unofficial localization for the Turkmen language for the Turkmenistan region. Here it is possible to use the Turkmen language without adding additional classes. Just add the library and you're done.
+version: 0.0.4
 repository: https://github.com/Mickey-A-Mouse/turkmen_localization_support
 
 environment:
-  sdk: '>=2.19.2 <4.0.0'
+  sdk: '>=3.0.5 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   # Localizations
-  intl: ^0.18.0 
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:

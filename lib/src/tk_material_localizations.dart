@@ -672,4 +672,25 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
 
   @override
   String get scrimOnTapHintRaw => r'$modalRouteContentName - ny ýapmak';
+  
+  @override
+  String get collapsedHint => 'Açylan';
+  
+  @override
+  String get expandedHint => 'Ýapylan';
+  
+  @override
+  String get expansionTileCollapsedHint => 'açmak üçin iki gezek basyň';
+  
+  @override
+  String get expansionTileCollapsedTapHint => 'Goşmaça maglumat üçin açyň';
+  
+  @override
+  String get expansionTileExpandedHint => 'ýapmak üçin iki gezek basyň';
+  
+  @override
+  String get expansionTileExpandedTapHint => 'Ýapmak';
+  
+  @override
+  String get scanTextButtonLabel => 'Teksti skanirlemek';
 }
