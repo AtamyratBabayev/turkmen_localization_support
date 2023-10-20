@@ -20,8 +20,10 @@ Simple example of usage:
       supportedLocales: [Locale('tk')],
       // Delegates should be placed here
       localizationsDelegates: [
-        // Some other delegates
-        ...TkDelegates.delegates(),
+        // Some other delegates here
+        
+        // Add this line
+        ...TkDelegates.delegates,
       ],
       theme: ThemeData.light(),
       home: const Scaffold(),
