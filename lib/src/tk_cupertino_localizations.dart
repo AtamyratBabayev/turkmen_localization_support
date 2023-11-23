@@ -187,7 +187,19 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
 
   @override
   String get todayLabel => 'Bu gün';
-  
+
   @override
   String get noSpellCheckReplacementsLabel => 'Çalyşma tapylmady';
+
+  @override
+  String get lookUpButtonLabel => 'Gözlemek';
+
+  @override
+  String get menuDismissLabel => 'Menýuny ýapmak';
+
+  @override
+  String get searchWebButtonLabel => 'Internetde gözlemek';
+
+  @override
+  String get shareButtonLabel => 'Paýlaşmak...';
 }
