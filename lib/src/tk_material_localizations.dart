@@ -197,7 +197,7 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
   String get dialogLabel => r'Dialog';
 
   @override
-  String get drawerLabel => r'Menýü nawigasiýasy';
+  String get drawerLabel => r'Menýu nawigasiýasy';
 
   @override
   String get expandedIconTapHint => r'Kiçeltmek';
@@ -256,7 +256,7 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
   String get okButtonLabel => r'Bolýar';
 
   @override
-  String get openAppDrawerTooltip => r'Nawigasiýa menýüsyny açyň';
+  String get openAppDrawerTooltip => r'Nawigasiýa menýusyny açyň';
 
   @override
   String get pageRowsInfoTitleApproximateRaw =>
@@ -269,7 +269,7 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
   String get pasteButtonLabel => r'GOÝMAK';
 
   @override
-  String get popupMenuLabel => r'Ýuze çykýan menýü';
+  String get popupMenuLabel => r'Ýuze çykýan menýu';
 
   @override
   String get postMeridiemAbbreviation => r'Öýlän';
@@ -334,7 +334,7 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
   String get showAccountsLabel => r'Hasaplary görkezmek';
 
   @override
-  String get showMenuTooltip => r'Menýüny görkez';
+  String get showMenuTooltip => r'Menýuny görkez';
 
   @override
   String get signedInLabel => r'Giriş edildi';
@@ -656,7 +656,7 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
   String get keyboardKeySpace => 'Space';
 
   @override
-  String get menuBarMenuLabel => 'Menýü paneli';
+  String get menuBarMenuLabel => 'Menýu paneli';
 
   @override
   String get bottomSheetLabel => 'Aşaky ekran';
@@ -672,25 +672,37 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
 
   @override
   String get scrimOnTapHintRaw => r'$modalRouteContentName - ny ýapmak';
-  
+
   @override
   String get collapsedHint => 'Açylan';
-  
+
   @override
   String get expandedHint => 'Ýapylan';
-  
+
   @override
   String get expansionTileCollapsedHint => 'açmak üçin iki gezek basyň';
-  
+
   @override
   String get expansionTileCollapsedTapHint => 'Goşmaça maglumat üçin açyň';
-  
+
   @override
   String get expansionTileExpandedHint => 'ýapmak üçin iki gezek basyň';
-  
+
   @override
   String get expansionTileExpandedTapHint => 'Ýapmak';
-  
+
   @override
   String get scanTextButtonLabel => 'Teksti skanirlemek';
+
+  @override
+  String get lookUpButtonLabel => 'Gözlemek';
+
+  @override
+  String get menuDismissLabel => 'Menýuny ýapmak';
+
+  @override
+  String get searchWebButtonLabel => 'Internetde gözlemek';
+
+  @override
+  String get shareButtonLabel => 'Paýlaşmak...';
 }
