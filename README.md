@@ -1,13 +1,13 @@
-Package that provides unofficial support for Turkmen language, actually for Turkmenistan location.
+Package that provides unofficial support for Turkmen (Turkmenistan) language for Flutter.
 
 ## Features
 
-No need to create a custom Turkmen language support, all you need is here.
+Solves the problem with the lack of support for Turkmen (Turkmenistan) localization in an application written in Flutter.
 
 ## Getting started
 
-1. import library;
-2. add delegates from library;
+1. Import library;
+2. Add the required delegates.
 
 ## Usage
 
@@ -30,10 +30,8 @@ Simple example of usage:
     );
 ```
 
-## Additional information
+### You still could use one of delegates directly, if there is no need in one of them (example: if built only for Android, consider to use TkMaterialLocalization directly). 
 
-Unfortunately, I didn't find any support for turkmen language, so I decided to add my own support, most of information you could find by going to: https://docs.flutter.dev/development/accessibility-and-localization/internationalization
+## Note
 
-## Little note
-
-Actually there are no any 'tm' language code here: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry. Support for Turkmen language is possible only by using 'tk' tag, magic :D.
+There are no any 'tm' language code here: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry. Support for Turkmen language is possible only by using 'tk' tag.

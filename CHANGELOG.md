@@ -20,3 +20,9 @@
 ## 0.0.5
 
 * Updated missed translations.
+
+## 0.0.6
+
+* Added missing translations.
+* Updated intl version to ^0.19.0.
+* Updated README.md.

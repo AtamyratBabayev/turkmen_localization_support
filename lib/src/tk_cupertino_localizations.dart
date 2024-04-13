@@ -31,7 +31,7 @@ class _TkCupertinoLocalization
       TkCupertinoLocalization(
         localeName: localeName,
         fullYearFormat: intl.DateFormat('y', localeName),
-        mediumDateFormat: intl.DateFormat('EEE, MMM d', localeName),
+        mediumDateFormat: intl.DateFormat('EEE, d MMM ', localeName),
         decimalFormat: intl.NumberFormat('#,##0.###', 'en_US'),
         dayFormat: intl.DateFormat('d', localeName),
         doubleDigitMinuteFormat: intl.DateFormat('mm', localeName),
@@ -202,4 +202,7 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
 
   @override
   String get shareButtonLabel => 'Paýlaşmak...';
+
+  @override
+  String get clearButtonLabel => 'Arassalamak';
 }
