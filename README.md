@@ -30,8 +30,15 @@ Simple example of usage:
     );
 ```
 
-### You still could use one of delegates directly, if there is no need in one of them (example: if built only for Android, consider to use TkMaterialLocalization directly). 
+#### You still could use one of delegates directly, if there is no need in one of them (example: if built only for Android, consider to use TkMaterialLocalization directly). 
 
 ## Note
 
 There are no any 'tm' language code here: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry. Support for Turkmen language is possible only by using 'tk' tag.
+
+## Contributing
+1. Fork it (https://github.com/AtamyratBabayev/turkmen_localization_support/fork)
+2. Create your feature branch (git checkout -b feature/fooBar)
+3. Commit your changes (git commit -am 'Add some fooBar')
+4. Push to the branch (git push origin feature/fooBar)
+5. Create a new Pull Request
