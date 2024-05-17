@@ -705,4 +705,10 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
 
   @override
   String get shareButtonLabel => 'Paýlaşmak...';
+
+  @override
+  String get clearButtonTooltip => 'Teksti pozmak';
+
+  @override
+  String get selectedDateLabel => 'Saýlanan';
 }
