@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:turkmen_localization_support/turkmen_localization_support.dart';
+import '../turkmen_localization_support.dart';
 
 class TkDelegates {
   // Hidden constuctor
