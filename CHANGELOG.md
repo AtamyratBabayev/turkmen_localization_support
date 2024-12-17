@@ -35,3 +35,7 @@
 
 * Added missing translations.
 * Updated intl version to ^0.19.0.
+
+## 0.0.9
+
+* Added missing translations.
