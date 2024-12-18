@@ -38,6 +38,7 @@ class _TkCupertinoLocalization
         singleDigitHourFormat: intl.DateFormat('HH', localeName),
         singleDigitMinuteFormat: intl.DateFormat('m', localeName),
         singleDigitSecondFormat: intl.DateFormat('s', localeName),
+        weekdayFormat: intl.DateFormat('EEE', localeName),
       ),
     );
   }
@@ -54,6 +55,7 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
     required super.doubleDigitMinuteFormat,
     required super.singleDigitSecondFormat,
     required super.decimalFormat,
+    required super.weekdayFormat,
   });
 
   static const LocalizationsDelegate<CupertinoLocalizations> delegate =
