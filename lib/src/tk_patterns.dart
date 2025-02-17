@@ -18,7 +18,7 @@ class TkPatterns {
     'QQQQ': 'QQQQ',
     'y': 'y',
     'yM': 'M.y',
-    'yMd': 'd.M.y',
+    'yMd': 'dd.MM.yyyy',
     'yMEd': 'EEE d.MM.y',
     'yMMM': 'MMM y',
     'yMMMd': 'd. MMM y',
