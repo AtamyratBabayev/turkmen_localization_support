@@ -1,6 +1,6 @@
 name: turkmen_localization_support
 description: Provides an unofficial localization for the Turkmen language for the Turkmenistan region. Here it is possible to use the Turkmen language without adding additional classes.
-version: 0.0.9
+version: 0.0.10
 repository: https://github.com/Mickey-A-Mouse/turkmen_localization_support
 
 environment:
