@@ -39,3 +39,7 @@
 ## 0.0.9
 
 * Added missing translations.
+
+## 0.0.10
+
+* Changed yMd format d.M.y -> dd.MM.yyyy.
